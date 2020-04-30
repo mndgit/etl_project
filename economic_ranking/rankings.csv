@@ -1,0 +1,187 @@
+country,overall,change
+Singapore,89.4,0.0
+Australia,82.6,+1.7
+Hong Kong,89.1,-1.1
+Switzerland,82.0,+0.1
+New Zealand,84.1,-0.3
+Ireland,80.9,+0.4
+United Kingdom,79.3,+0.4
+Czech Republic,74.8,+1.1
+Denmark,78.3,+1.6
+Malaysia,74.7,+0.7
+Canada,78.2,+0.5
+South Korea,74.0,+1.7
+Estonia,77.7,+1.1
+Israel,74.0,+1.2
+Taiwan,77.1,-0.2
+Germany,73.5,0.0
+Georgia,77.1,+1.2
+Norway,73.4,+0.4
+Iceland,77.1,0.0
+Austria,73.3,+1.3
+Netherlands,77.0,+0.2
+Japan,73.3,+1.2
+Chile,76.8,+1.4
+Qatar,72.3,-0.3
+Lithuania,76.7,+2.5
+Latvia,71.9,+1.5
+United States,76.6,-0.2
+Rwanda,70.9,-0.2
+United Arab Emirates,76.2,-1.4
+Armenia,70.6,+2.9
+Luxembourg,75.8,-0.1
+Macau,70.3,-0.7
+Finland,75.7,+0.8
+Bulgaria,70.2,+1.2
+Mauritius,74.9,+1.9
+Cyprus,70.1,+2.0
+Sweden,74.9,-0.3
+Romania,69.7,+1.1
+The Bahamas,64.5,+1.6
+Kazakhstan,69.6,+4.2
+Philippines,64.5,+0.7
+Botswana,69.6,+0.1
+Turkey,64.4,-0.2
+North Macedonia,69.5,-1.6
+Seychelles,64.3,+2.9
+Malta,69.5,+0.9
+Guatemala,64.0,+1.4
+Thailand,69.4,+1.1
+Italy,63.8,+1.6
+Azerbaijan,69.3,+3.9
+Oman,63.6,+2.6
+Colombia,69.2,+1.9
+Cabo Verde,63.6,+0.5
+Poland,69.1,+1.3
+Fiji,63.4,+1.2
+Uruguay,69.1,+0.5
+Morocco,63.3,+0.4
+Belgium,68.9,+1.6
+Kuwait,63.2,+2.4
+Jamaica,68.5,-0.1
+Paraguay,63.0,+1.2
+Saint Lucia,68.2,-0.5
+Kyrgyz Republic,62.9,+0.6
+Peru,67.9,+0.1
+Bosnia and Herzegovina,62.6,+0.7
+Slovenia,67.8,+2.3
+Saudi Arabia,62.4,+1.7
+Kosovo,67.4,+0.4
+Croatia,62.2,+0.8
+Indonesia,67.2,+1.4
+Bhutan,62.1,-0.8
+Panama,67.2,0.0
+Samoa,62.1,-0.1
+Portugal,67.0,+1.7
+Moldova,62.0,+2.9
+Albania,66.9,+0.4
+Belarus,61.7,+3.8
+Spain,66.9,+1.2
+Tanzania,61.7,+1.5
+Saint Vincent and the Grenadines,66.8,+1.0
+El Salvador,61.6,-0.2
+Slovakia,66.8,+1.8
+Montenegro,61.5,+1.0
+Brunei Darussalam,66.6,+1.5
+Barbados,61.4,-3.3
+Hungary,66.4,+1.4
+Honduras,61.1,+0.9
+Bahrain,66.3,-0.1
+Russia,61.0,+2.1
+France,66.0,+2.2
+Dominican Republic,60.9,-0.1
+Serbia,66.0,+2.1
+Namibia,60.9,+2.2
+Jordan,66.0,-0.5
+Dominica,60.8,-2.8
+Mexico,66.0,+1.3
+Vanuatu,60.7,+4.3
+Costa Rica,65.8,+0.5
+Madagascar,60.5,+3.9
+Greece,59.9,+2.2
+Eswatini,55.3,+0.6
+Côte d'Ivoire,59.7,-2.7
+Kenya,55.3,+0.2
+Uganda,59.5,-0.2
+Benin,55.2,-0.1
+China,59.5,+1.1
+Ukraine,54.9,+2.6
+Ghana,59.4,+1.9
+Pakistan,54.8,-0.2
+Vietnam,58.8,+3.5
+Afghanistan,54.7,+3.2
+South Africa,58.8,+0.5
+Niger,54.7,+3.1
+Tonga,58.8,+1.1
+Lesotho,54.5,+1.4
+Papua New Guinea,58.4,0.0
+Nepal,54.2,+0.4
+Trinidad and Tobago,58.3,+1.3
+Togo,54.1,+3.8
+Senegal,58.0,+1.7
+Burma,54.0,+0.4
+Belize,57.4,+2.0
+Egypt,54.0,+1.5
+Sri Lanka,57.4,+1.0
+Comoros,53.7,-1.7
+Cambodia,57.3,-0.5
+Brazil,53.7,+1.8
+Uzbekistan,57.2,+3.9
+Cameroon,53.6,+1.2
+Nicaragua,57.2,-0.5
+Ethiopia,53.6,0.0
+Nigeria,57.2,-0.1
+Zambia,53.5,-0.1
+Burkina Faso,56.7,-2.7
+Guinea-Bissau,53.3,-0.7
+Gabon,56.7,+0.4
+Argentina,53.1,+0.9
+Maldives,56.5,+3.3
+Solomon Islands,52.9,-1.7
+India,56.5,+1.3
+Djibouti,52.9,+5.8
+Guinea,56.5,+0.8
+Malawi,52.8,+1.4
+Bangladesh,56.4,+0.8
+Haiti,52.3,-0.4
+The Gambia,56.3,+3.9
+Angola,52.2,+1.6
+Guyana,56.2,-0.6
+Tajikistan,52.2,-3.4
+São Tomé and Príncipe,56.2,+2.2
+Micronesia,52.0,+0.1
+Mali,55.9,-2.2
+Lebanon,51.7,+0.6
+Mongolia,55.9,+0.5
+Ecuador,51.3,+4.4
+Tunisia,55.8,+0.4
+Central African Republic,50.7,+1.6
+Laos,55.5,-1.9
+Mozambique,50.5,+1.9
+Mauritania,55.3,-0.4
+Chad,50.2,+0.3
+Democratic Republic of Congo,49.5,-0.8
+Kiribati,45.2,-2.1
+Suriname,49.5,+1.4
+Sudan,45.0,-2.7
+Iran,49.2,-1.9
+Zimbabwe,43.1,+2.7
+Liberia,49.0,-0.7
+Bolivia,42.8,+0.5
+Burundi,49.0,+0.1
+Republic of Congo,41.8,+2.1
+Equatorial Guinea,48.3,+7.3
+Eritrea,38.5,-0.4
+Sierra Leone,48.0,+0.5
+Cuba,26.9,-0.9
+Algeria,46.9,+0.7
+Venezuela,25.2,-0.7
+Turkmenistan,46.5,-1.9
+North Korea,4.2,-1.7
+Timor-Leste,45.9,+1.7
+Iraq,N/A,N/A
+Somalia,N/A,N/A
+Libya,N/A,N/A
+Syria,N/A,N/A
+Liechtenstein,N/A,N/A
+Yemen,N/A,N/A
