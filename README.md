@@ -205,7 +205,7 @@ After extracting the csv and postgress query, we merge them together.
 country_code_population = country_population.merge(country_code, on='name')
 ```
 
-Clean the data
+Clean the data by dropping N/A's, format the columns and rename them.
 
 ```python
 #drop NA
