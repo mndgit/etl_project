@@ -1,6 +1,6 @@
 # ETL-Project
 
-![ETL](https://panoply.io/uploads/versions/diagram4---x----750-328x---.jpg)
+![ETL.jpg](https://panoply.io/uploads/versions/diagram4---x----750-328x---.jpg)
 
 ## Datasets
 
@@ -195,7 +195,7 @@ dict = {'country': country_list,'overall': overall_list,'change': change_list}
 rankings_df = pd.DataFrame(dict)
 ```
 
-![Economic_Ranking](population_areacodes_rankings/Resources/Images/enonomic_ranking_df.png)
+![Economic_Ranking.png](population_areacodes_rankings/Resources/Images/enonomic_ranking_df.png)
 
 ### [Countries By Population 2019](population_areacodes_rankings/Resources/countries_by_population_2019.csv) / [Country Codes 2020](population_areacodes_rankings/Resources/country_codes_2020.csv)
 
@@ -226,7 +226,7 @@ country_code_population = country_code_population.rename(columns={"name": "count
 country_code_population=country_code_population[["Rank","country","Population","Area","Density","Country Code_1","Country Code_2","Country Code_#"]]
 ```
 
-![Population Merged](population_areacodes_rankings/Resources/Images/population_merged_df.png)
+![Population Merged.png](population_areacodes_rankings/Resources/Images/population_merged_df.png)
 
 ### Final DF
 
@@ -236,7 +236,7 @@ We then merge both the dataframes together.
 rankings_country_code_population=country_code_population.merge(rankings_df, on='country')
 ```
 
-![Population Merged](population_areacodes_rankings/Resources/Images/population_ranking_merged_df.png)
+![Population Merged.png](population_areacodes_rankings/Resources/Images/population_ranking_merged_df.png)
 
 ## Load
 
