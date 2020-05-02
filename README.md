@@ -236,7 +236,7 @@ We then merge both the dataframes together.
 rankings_country_code_population=country_code_population.merge(rankings_df, on='country')
 ```
 
-![population_ranking_merged_df.png](population_areacodes_rankings/Resources/Images/population_ranking_merged_df.PNG)
+![population_ranking_merged_df.png](population_areacodes_rankings/Resources/Images/population_ranking_merged_df.png)
 
 ## Load
 
