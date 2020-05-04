@@ -48,4 +48,9 @@ def scrape():
     dict = {'country': country_list,'overall': overall_list,'change': change_list}
     rankings_df = pd.DataFrame(dict)
 
+    browser.quit()
+
     return rankings_df
+
+if __name__ == '__main__':
+    scrape()

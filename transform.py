@@ -8,7 +8,7 @@ def transform():
     rankings_df = extract.scrape()
 
     #reading data from csv file
-    file_to_load = "Resources/countries_by_population_2019.csv"
+    file_to_load = "population_areacodes_rankings/resources/countries_by_population_2019.csv"
     country_population = pd.read_csv(file_to_load)
 
     #connection made to connect to Postgres sql to bring the country_code table from country Database(Data#2 from SQL DB)
@@ -42,3 +42,6 @@ def transform():
     rankings_country_code_population.drop_duplicates(subset ="country", keep = False, inplace = True)
     
     return rankings_country_code_population
+
+if __name__ == '__main__':
+    transform()

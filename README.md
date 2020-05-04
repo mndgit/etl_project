@@ -292,4 +292,6 @@ We have also created separate `.py` files to run the the same code as the [Jupyt
 * [main](main.py)
 * [extract](extract.py)
 * [transform](transform.py)
-* [load](load.py) 
+* [load](load.py)
+
+`main.py` will import `extract.py`, `transform.py` and `load.py`, to call each function within. This will perform an ETL that can be modular since the files are able to run separately.
