@@ -5,5 +5,10 @@
 import extract
 import transform
 
-rankings_df = extract.scrape()
-rankings_country_code_population = transform.transform()
+#extract the data
+extract.scrape()
+
+#transform the data
+transform.transform()
+
+#load the data to postgres and mongodb
