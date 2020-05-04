@@ -2,6 +2,8 @@
 
 ![ETL.jpg](https://panoply.io/uploads/versions/diagram4---x----750-328x---.jpg)
 
+This document is in reference to the following [Jupyter Notebook](population_areacodes_rankings\population_areacodes_rankings_final.ipynb) file
+
 ## Datasets
 
 1. Website: [Heritage - Country Rankings](https://www.heritage.org/index/ranking)
@@ -242,7 +244,7 @@ rankings_country_code_population=country_code_population.merge(rankings_df, on='
 
 ### Using Postgres
 
-We create our engine. We used a config.py file to hide our secrets. Please do the same to be able to run this code. After creating the enginem we insert the final dataframe into postgres and overwrite any existing data.
+We create our engine. We used a config.py file to hide our secrets. Please do the same to be able to run this code. After creating the engine, we insert the final dataframe into postgres and overwrite any existing data.
 
 ```python
 #create database connection
@@ -254,7 +256,7 @@ rankings_country_code_population.to_sql(name='country_rankings', con=engine, if_
 
 ### Using MongoDB
 
-We create out connection and connect using pymongo.
+We create our connection and connect using pymongo.
 
 ```python
 # Initialize PyMongo to work with MongoDBs
@@ -283,3 +285,11 @@ for i in results:
 
 collection.replace_one(doc_id, doc, upsert=True)
 ```
+## Bonus
+
+We have also created separate `.py` files to run the the same code as the [Jupyter Notebook](population_areacodes_rankings\population_areacodes_rankings_final.ipynb) so that the code is modular:
+
+* [main](main.py)
+* [extract](extract.py)
+* [transform](transform.py)
+* [load](load.py) 
