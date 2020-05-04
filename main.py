@@ -7,5 +7,3 @@ import transform
 
 rankings_df = extract.scrape()
 rankings_country_code_population = transform.transform()
-
-print(rankings_country_code_population)
