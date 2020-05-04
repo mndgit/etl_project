@@ -40,4 +40,5 @@ def transform():
 
     #removing duplicates
     rankings_country_code_population.drop_duplicates(subset ="country", keep = False, inplace = True)
-    rankings_country_code_population.head()
+    
+    return rankings_country_code_population
