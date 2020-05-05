@@ -3,7 +3,7 @@ import config
 from sqlalchemy import create_engine
 import extract
 
-def transform():
+def main():
     #extract data
     rankings_df = extract.scrape()
 
@@ -44,4 +44,4 @@ def transform():
     return rankings_country_code_population
 
 if __name__ == '__main__':
-    transform()
+    main()

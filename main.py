@@ -4,11 +4,13 @@
 
 import extract
 import transform
+import load
 
 #extract the data
-extract.scrape()
+extract.main()
 
 #transform the data
-transform.transform()
+transform.main()
 
 #load the data to postgres and mongodb
+load.main()
