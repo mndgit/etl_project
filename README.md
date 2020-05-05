@@ -254,7 +254,7 @@ engine = create_engine(f'postgresql://{postgres_conn_str}')
 rankings_country_code_population.to_sql(name='country_rankings', con=engine, if_exists='replace', index=False)
 ```
 
-<img src="population_areacodes_rankings/Resources/Images/postgres_db.PNG" width="600" height="400" alt="postgres_db.png">
+<img src="population_areacodes_rankings/Resources/Images/postgres_db.PNG" alt="postgres_db.png">
 
 ### Using MongoDB
 
@@ -288,7 +288,7 @@ for i in results:
 collection.replace_one(doc_id, doc, upsert=True)
 ```
 
-<img src="population_areacodes_rankings/Resources/Images/mongo_db.PNG" width="600" height="350" alt="mongo_db.png">
+<img src="population_areacodes_rankings/Resources/Images/mongo_db.PNG" alt="mongo_db.png">
 
 ## Bonus
 
