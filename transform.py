@@ -5,7 +5,7 @@ import extract
 
 def main():
     #extract data
-    rankings_df = extract.scrape()
+    rankings_df = extract.main()
 
     #reading data from csv file
     file_to_load = "population_areacodes_rankings/resources/countries_by_population_2019.csv"
