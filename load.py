@@ -4,8 +4,8 @@ import pymongo
 import config
 import transform
 
-def main():
-    rankings_country_code_population = transform.main()
+def loader():
+    rankings_country_code_population = transform.transformer()
 
     ########################################################
     # load data to postgres
@@ -35,4 +35,4 @@ def main():
     collection.replace_one(doc_id, doc, upsert=True)
 
 if __name__ == '__main__':
-    main()
+    loader()

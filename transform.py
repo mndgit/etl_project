@@ -3,9 +3,9 @@ import config
 from sqlalchemy import create_engine
 import extract
 
-def main():
+def transformer():
     #extract data
-    rankings_df = extract.main()
+    rankings_df = extract.extractor()
 
     #reading data from csv file
     file_to_load = "population_areacodes_rankings/resources/countries_by_population_2019.csv"
@@ -44,4 +44,4 @@ def main():
     return rankings_country_code_population
 
 if __name__ == '__main__':
-    main()
+    transformer()

@@ -7,10 +7,10 @@ import transform
 import load
 
 #extract the data
-extract.main()
+extract.extractor()
 
 #transform the data
-transform.main()
+transform.transformer()
 
 #load the data to postgres and mongodb
-load.main()
+load.loader()

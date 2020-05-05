@@ -3,7 +3,7 @@ from splinter import Browser
 from bs4 import BeautifulSoup
 import requests
 
-def main():
+def extractor():
     #url to be scraped
     url = 'https://www.heritage.org/index/ranking'
 
@@ -53,4 +53,4 @@ def main():
     return rankings_df
 
 if __name__ == '__main__':
-    main()
+    extractor()
