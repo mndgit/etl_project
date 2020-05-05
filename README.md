@@ -105,7 +105,7 @@ We import the csv into postgres and then query the database.
 
 ```python
 #connection made to connect to Postgres sql to bring the country_code table from country Database(Data#2 from SQL DB)
-engine = create_engine('postgresql://postgres:postgres@localhost:5432/country')
+engine = create_engine(f'postgresql://{config.postgres_conn_str}{config.csv_database}')
 connection = engine.connect()
 country_code=pd.read_sql("SELECT * FROM country_code", connection)
 ```
@@ -248,7 +248,7 @@ We create our engine. We used a config.py file to hide our secrets. Please do th
 
 ```python
 #create database connection
-engine = create_engine(f'postgresql://{postgres_conn_str}')
+engine = create_engine(f'postgresql://{config.postgres_conn_str}{config.upload_database}')
 
 #insert df into postgres
 rankings_country_code_population.to_sql(name='country_rankings', con=engine, if_exists='replace', index=False)
