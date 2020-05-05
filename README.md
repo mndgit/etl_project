@@ -254,6 +254,8 @@ engine = create_engine(f'postgresql://{postgres_conn_str}')
 rankings_country_code_population.to_sql(name='country_rankings', con=engine, if_exists='replace', index=False)
 ```
 
+<img src="population_areacodes_rankings/Resources/Images/postgres_db.PNG" width="600" height="400" alt="postgres_db.png">
+
 ### Using MongoDB
 
 We created our connection and connected to the database using pymongo.
@@ -285,6 +287,9 @@ for i in results:
 
 collection.replace_one(doc_id, doc, upsert=True)
 ```
+
+<img src="population_areacodes_rankings/Resources/Images/mongo_db.PNG" width="600" height="350" alt="mongo_db.png">
+
 ## Bonus
 
 We have also created separate `.py` files to run the the same code as the [Jupyter Notebook](population_areacodes_rankings\population_areacodes_rankings_final.ipynb) so that the code is modular:
