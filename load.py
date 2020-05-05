@@ -7,11 +7,17 @@ import transform
 def main():
     rankings_country_code_population = transform.main()
 
+    ########################################################
+    # load data to postgres
+    ########################################################
     #create database connection
     engine = create_engine(f'postgresql://{config.postgres_conn_str}{config.upload_database}')
     #insert df into postgres
     rankings_country_code_population.to_sql(name='country_rankings', con=engine, if_exists='replace', index=False)
 
+    ########################################################
+    # load data to mongodb
+    ########################################################
     # Initialize PyMongo to work with MongoDBs
     conn = 'mongodb://localhost:27017'
     client = pymongo.MongoClient(conn)
