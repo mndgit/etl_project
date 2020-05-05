@@ -256,7 +256,7 @@ rankings_country_code_population.to_sql(name='country_rankings', con=engine, if_
 
 ### Using MongoDB
 
-We created our connection and connect using pymongo.
+We created our connection and connected to the database using pymongo.
 
 ```python
 # Initialize PyMongo to work with MongoDBs
